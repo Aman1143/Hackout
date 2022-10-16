@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>header}}
+    <link rel="stylesheet" href="css/bookstyle.css">
+    <title>Digital Library</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+       <a class="navbar-brand" href="#"><strong>Library</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/signup">Sign Up</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary"><strong>Welcome to Library</strong></h1>
+        <p> <i>"The Only Thing That You Absolutely Have To Know, Is The Location Of The Library"</i> </p>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center"> <img id="imgr" src="images/service.webp" alt=""> Our Services</h1>
+        <div id="services">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/japanese.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Japanese Books</h5>
+                            <p class="card-text">We have huge collection of Japanese books and Mangas from ancient ages till todays modern dates.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/english.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">English Books</h5>
+                            <p class="card-text">We have huge collection of English books from ancient ages till todays modern dates.
+                                </p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/hindi.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Hindi Books</h5>
+                            <p class="card-text">We have huge collection of Hindi books from ancient ages till todays modern dates.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/teluguu.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Telugu Books</h5>
+                            <p class="card-text">We have huge collection of Telugu books from ancient ages till todays modern dates.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/tamil.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Tamil Books</h5>
+                            <p class="card-text">We have huge collection of Tamil books from ancient ages till todays modern dates.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/sanskrit.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Sanskrit Books</h5>
+                            <p class="card-text">We have huge collection of sanskrit books from ancient ages till todays modern dates.</p>
+                            <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+               
+                
+                
+
+
+            </div>
+        </div>
+    </section>
+
+
+    {{>footer}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {{>script}}
+
+</body>
+
+</html>
